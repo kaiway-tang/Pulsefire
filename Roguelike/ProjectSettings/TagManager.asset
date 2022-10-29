@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - nmy
+  - explosive
+  - 20
+  - 40
+  - 60
+  - 1
+  - 2
+  - 0
+  - 3
+  - noRep
+  - crasher
+  - 150
+  - ex
+  - mapObj
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - shield
+  - playerAtk
+  - nmy
+  - nmyAtk
+  - flying
+  - neutral
+  - terrain
+  - wall
+  - hazard
+  - player
+  - vase
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: lessPrior
+    uniqueID: 1955668835
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: forceFieldFX
+    uniqueID: 576431699
+    locked: 0
+  - name: Player
+    uniqueID: 204932695
+    locked: 0
+  - name: Boss
+    uniqueID: 1449685157
+    locked: 0
+  - name: Blackout
+    uniqueID: 2328018525
+    locked: 0
+  - name: UI
+    uniqueID: 3639110535
+    locked: 0

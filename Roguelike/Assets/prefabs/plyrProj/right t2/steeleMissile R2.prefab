@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4765637078628473736
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8045051565633388808, guid: 05244c4dd3fc1fc43b152fc271ec1085,
+        type: 3}
+      propertyPath: m_Name
+      value: steeleMissile R2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8045051565633388737, guid: 05244c4dd3fc1fc43b152fc271ec1085,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8045051565633388737, guid: 05244c4dd3fc1fc43b152fc271ec1085,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8045051565633388737, guid: 05244c4dd3fc1fc43b152fc271ec1085,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8045051565633388737, guid: 05244c4dd3fc1fc43b152fc271ec1085,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8045051565633388737, guid: 05244c4dd3fc1fc43b152fc271ec1085,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8045051565633388737, guid: 05244c4dd3fc1fc43b152fc271ec1085,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8045051565633388737, guid: 05244c4dd3fc1fc43b152fc271ec1085,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8045051565633388737, guid: 05244c4dd3fc1fc43b152fc271ec1085,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8045051565633388737, guid: 05244c4dd3fc1fc43b152fc271ec1085,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8045051565633388737, guid: 05244c4dd3fc1fc43b152fc271ec1085,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8045051565633388737, guid: 05244c4dd3fc1fc43b152fc271ec1085,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8045051565633390118, guid: 05244c4dd3fc1fc43b152fc271ec1085,
+        type: 3}
+      propertyPath: explosion
+      value: 
+      objectReference: {fileID: 4139342713654647277, guid: 791a088d71d830c4d8652f5fd7c0cd02,
+        type: 3}
+    - target: {fileID: 8045051565633390177, guid: 05244c4dd3fc1fc43b152fc271ec1085,
+        type: 3}
+      propertyPath: projID
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5912172039715393019, guid: 05244c4dd3fc1fc43b152fc271ec1085,
+        type: 3}
+      propertyPath: m_Name
+      value: steeleMissile R2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8813204437286696537, guid: 05244c4dd3fc1fc43b152fc271ec1085,
+        type: 3}
+      propertyPath: explosion
+      value: 
+      objectReference: {fileID: 2396931148586807502, guid: 791a088d71d830c4d8652f5fd7c0cd02,
+        type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 05244c4dd3fc1fc43b152fc271ec1085, type: 3}

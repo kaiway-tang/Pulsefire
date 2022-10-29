@@ -1,0 +1,343 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1081080111451856133
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8624766101470086125}
+  - component: {fileID: 5609349907263372622}
+  m_Layer: 0
+  m_Name: chunkPlacer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8624766101470086125
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081080111451856133}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5609349907263372622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081080111451856133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48079487d06c53142bcc3639fb98c9c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entrance: 0
+  roomMan: {fileID: 0}
+  selectedChunk: 1
+  manual: 0
+  chunkLayouts:
+  - {fileID: 7179651361800293276, guid: d14fd0c26bcf5c84985d01524cc9ae68, type: 3}
+  - {fileID: 7179651361800293276, guid: e5c41e1032e7a0d458a51425d85f9f44, type: 3}
+  - {fileID: 7179651361800293276, guid: 2d86220d8d12c524393749870647b7b5, type: 3}
+  - {fileID: 7179651361800293276, guid: 33f17587a6b54d14a8d84520c12d2d0e, type: 3}
+  - {fileID: 7179651361800293276, guid: e42b18181e571be4288552581f5669b3, type: 3}
+  - {fileID: 7179651361800293276, guid: c2b6bb54b52954149bfaa0ecd9a67e8e, type: 3}
+  - {fileID: 7179651361800293276, guid: 4a4dfb327fcb4444197111e754932e08, type: 3}
+  - {fileID: 7179651361800293276, guid: 46bd3febecd3f7b44a6190b60ffae0df, type: 3}
+  - {fileID: 7179651361800293276, guid: d3e957fcd011efb4fbcddd438ee0d460, type: 3}
+  - {fileID: 7179651361800293276, guid: f7666c76260f3ac4593440947fcfe0e2, type: 3}
+  - {fileID: 7179651361800293276, guid: d05ef861fd314a24ebc3c26a2b16093e, type: 3}
+  - {fileID: 7179651361800293276, guid: 47d14c0ee3d914642853398d79670101, type: 3}
+  - {fileID: 7179651361800293276, guid: fa641ab153e34914d8b1ee66676df723, type: 3}
+  - {fileID: 7179651361800293276, guid: 506942c1511d958418b79d670997c8b9, type: 3}
+  - {fileID: 7179651361800293276, guid: 4c046d6e39ef7214cbc02597aedfe744, type: 3}
+  - {fileID: 7179651361800293276, guid: ce6a776336ddc174d84b7aef86131950, type: 3}
+  - {fileID: 7179651361800293276, guid: 13ab9380b5b26c240b002a0b7cf47d70, type: 3}
+  - {fileID: 7179651361800293276, guid: 863d340baaad3f34190e0340ae2f0059, type: 3}
+  - {fileID: 7179651361800293276, guid: 567ad8d4b9d75ec4ab6d5ea156b5fec7, type: 3}
+  - {fileID: 7179651361800293276, guid: 2c3621bba76940146b6341e5f16662b0, type: 3}
+  - {fileID: 7179651361800293276, guid: e89c5c426a0657d42ae2da9a92b72c8b, type: 3}
+  - {fileID: 7179651361800293276, guid: ca3c942bb5b2951499ab943477e8fce9, type: 3}
+  - {fileID: 7179651361800293276, guid: c363f21f449a9de4dbaf70fa52495348, type: 3}
+  - {fileID: 7179651361800293276, guid: 4a63500846590fd4890f438ad7a03173, type: 3}
+  - {fileID: 7179651361800293276, guid: beb9c5650594a47428bccc0a27ad04a4, type: 3}
+  - {fileID: 7179651361800293276, guid: 2901bbea4f328024797108a4c8eaa260, type: 3}
+  - {fileID: 7179651361800293276, guid: e0b576c3df9e5af4f8527753cfdab59f, type: 3}
+  - {fileID: 7179651361800293276, guid: e99e3007a1a738a4eafb56b5cb48eafc, type: 3}
+  - {fileID: 7179651361800293276, guid: 1c8fa336e444cff4e908f4fce197f32f, type: 3}
+  - {fileID: 7179651361800293276, guid: e78085c900bae32479ca9694aaf0f673, type: 3}
+  - {fileID: 7179651361800293276, guid: 5058ca7338e735b46a61c2412ffd7ad7, type: 3}
+  - {fileID: 7179651361800293276, guid: 6095aa073930c5e4ea3c0fd87b0c541b, type: 3}
+  - {fileID: 7179651361800293276, guid: 5a549c3e6d72043429169c4bead124d6, type: 3}
+  - {fileID: 7179651361800293276, guid: 2cb2d56c579a3c64ab737075aaad0f51, type: 3}
+  - {fileID: 7179651361800293276, guid: 5e6f002fc87d1484794121b50c153c50, type: 3}
+  chunks:
+  - vects:
+    - {x: 3, y: 3, z: -1}
+    - {x: 3, y: -3, z: -1}
+    - {x: -3, y: 3, z: -1}
+    - {x: -3, y: -3, z: -1}
+    - {x: 9, y: 0, z: 0}
+    - {x: 6, y: 0, z: 0}
+    - {x: -9, y: 0, z: 0}
+    - {x: -6, y: 0, z: 0}
+    - {x: 0, y: 9, z: 0}
+    - {x: 0, y: 6, z: 0}
+    - {x: 0, y: -9, z: 0}
+    - {x: 0, y: -6, z: 0}
+  - vects:
+    - {x: 6, y: 9, z: 0}
+    - {x: 6, y: 6, z: 0}
+    - {x: 6, y: 3, z: 0}
+    - {x: 6, y: -3, z: 0}
+    - {x: 6, y: 0, z: 0}
+    - {x: -6, y: 0, z: 0}
+    - {x: -6, y: 3, z: 0}
+    - {x: -6, y: -3, z: 0}
+    - {x: -6, y: -6, z: 0}
+    - {x: -6, y: -9, z: 0}
+    - {x: 0, y: 0, z: -1}
+    - {x: 6, y: -6, z: -1}
+    - {x: -6, y: 6, z: -1}
+  - vects:
+    - {x: 9, y: 3, z: 0}
+    - {x: 9, y: 0, z: 0}
+    - {x: 9, y: -3, z: 0}
+    - {x: -9, y: 3, z: 0}
+    - {x: -9, y: 0, z: 0}
+    - {x: -9, y: -3, z: 0}
+    - {x: 3, y: 9, z: 0}
+    - {x: 0, y: 9, z: 0}
+    - {x: -3, y: 9, z: 0}
+    - {x: 3, y: -9, z: 0}
+    - {x: 0, y: -9, z: 0}
+    - {x: -3, y: -9, z: 0}
+    - {x: 2, y: 0, z: -1}
+    - {x: -2, y: 0, z: -1}
+  - vects:
+    - {x: -9, y: -9, z: 0}
+    - {x: -6, y: -6, z: 0}
+    - {x: -3, y: -3, z: 0}
+    - {x: 3, y: 3, z: 0}
+    - {x: 6, y: 6, z: 0}
+    - {x: 9, y: 9, z: 0}
+    - {x: -9, y: 9, z: 0}
+    - {x: -6, y: 9, z: 0}
+    - {x: -9, y: 6, z: 0}
+    - {x: 9, y: -9, z: 0}
+    - {x: 9, y: -6, z: 0}
+    - {x: 6, y: -9, z: 0}
+    - {x: 9, y: 0, z: -1}
+    - {x: -9, y: 0, z: -1}
+  - vects:
+    - {x: 3, y: 6, z: 0}
+    - {x: 3, y: 3, z: 0}
+    - {x: 3, y: -3, z: 0}
+    - {x: 3, y: -6, z: 0}
+    - {x: 6, y: 6, z: 0}
+    - {x: 6, y: 3, z: 0}
+    - {x: 6, y: -3, z: 0}
+    - {x: 6, y: -6, z: 0}
+    - {x: -3, y: 6, z: 0}
+    - {x: -3, y: 3, z: 0}
+    - {x: -3, y: -3, z: 0}
+    - {x: -3, y: -6, z: 0}
+    - {x: -6, y: 6, z: 0}
+    - {x: -6, y: 3, z: 0}
+    - {x: -6, y: -3, z: 0}
+    - {x: -6, y: -6, z: 0}
+    - {x: 6, y: 0, z: -1}
+    - {x: -6, y: 0, z: -1}
+    - {x: 0, y: 6, z: -1}
+    - {x: 0, y: -6, z: -1}
+  - vects:
+    - {x: 9, y: 9, z: 0}
+    - {x: 6, y: 6, z: 0}
+    - {x: 6, y: 3, z: 0}
+    - {x: 3, y: 6, z: 0}
+    - {x: -9, y: 9, z: 0}
+    - {x: -6, y: 6, z: 0}
+    - {x: -6, y: 3, z: 0}
+    - {x: -3, y: 6, z: 0}
+    - {x: 9, y: -9, z: 0}
+    - {x: 6, y: -6, z: 0}
+    - {x: 6, y: -3, z: 0}
+    - {x: 3, y: -6, z: 0}
+    - {x: -9, y: -9, z: 0}
+    - {x: -6, y: -6, z: 0}
+    - {x: -6, y: -3, z: 0}
+    - {x: -3, y: -6, z: 0}
+    - {x: 0, y: 6, z: -1}
+    - {x: 0, y: -6, z: -1}
+    - {x: 6, y: 0, z: -1}
+    - {x: -6, y: 0, z: -1}
+  - vects:
+    - {x: 6, y: 9, z: 0}
+    - {x: 9, y: 6, z: 0}
+    - {x: 6, y: 6, z: 0}
+    - {x: -6, y: -9, z: 0}
+    - {x: -9, y: -6, z: 0}
+    - {x: -6, y: -6, z: 0}
+    - {x: -9, y: 6, z: 0}
+    - {x: -6, y: 9, z: 0}
+    - {x: -6, y: 6, z: 0}
+    - {x: 6, y: -6, z: 0}
+    - {x: 6, y: -9, z: 0}
+    - {x: 9, y: -6, z: 0}
+    - {x: 3, y: 0, z: -1}
+    - {x: 0, y: 0, z: 0}
+    - {x: -3, y: 0, z: -1}
+    - {x: 0, y: 3, z: -1}
+    - {x: 0, y: -3, z: -1}
+  - vects:
+    - {x: 3, y: 6, z: 0}
+    - {x: 0, y: 6, z: 0}
+    - {x: -3, y: 6, z: 0}
+    - {x: 3, y: -6, z: 0}
+    - {x: 0, y: -6, z: 0}
+    - {x: -3, y: -6, z: 0}
+    - {x: 9, y: 6, z: 0}
+    - {x: 9, y: 3, z: 0}
+    - {x: 9, y: 0, z: 0}
+    - {x: 9, y: -3, z: 0}
+    - {x: 9, y: -6, z: 0}
+    - {x: -9, y: 6, z: 0}
+    - {x: -9, y: 3, z: 0}
+    - {x: -9, y: 0, z: 0}
+    - {x: -9, y: -3, z: 0}
+    - {x: -9, y: -6, z: 0}
+    - {x: 6, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: -6, y: 0, z: -1}
+  - vects:
+    - {x: 0, y: 3, z: 0}
+    - {x: 0, y: 6, z: 0}
+    - {x: 0, y: 9, z: 0}
+    - {x: 0, y: -3, z: 0}
+    - {x: 0, y: -6, z: 0}
+    - {x: 0, y: -9, z: 0}
+    - {x: 6, y: 3, z: 0}
+    - {x: 6, y: 6, z: 0}
+    - {x: 6, y: 9, z: 0}
+    - {x: 6, y: -3, z: 0}
+    - {x: 6, y: -6, z: 0}
+    - {x: 6, y: -9, z: 0}
+    - {x: -6, y: 3, z: 0}
+    - {x: -6, y: 6, z: 0}
+    - {x: -6, y: 9, z: 0}
+    - {x: -6, y: -3, z: 0}
+    - {x: -6, y: -6, z: 0}
+    - {x: -6, y: -9, z: 0}
+    - {x: -6, y: 0, z: -1}
+    - {x: 0, y: 0, z: -1}
+    - {x: 6, y: 0, z: -1}
+  - vects:
+    - {x: 9, y: 9, z: 0}
+    - {x: 9, y: 6, z: 0}
+    - {x: 6, y: 9, z: 0}
+    - {x: -9, y: -9, z: 0}
+    - {x: -9, y: -6, z: 0}
+    - {x: -6, y: -9, z: 0}
+    - {x: 3, y: -3, z: 0}
+    - {x: 6, y: -3, z: 0}
+    - {x: 9, y: -3, z: 0}
+    - {x: 3, y: -6, z: 0}
+    - {x: 3, y: -9, z: 0}
+    - {x: -3, y: 3, z: 0}
+    - {x: -3, y: 6, z: 0}
+    - {x: -3, y: 9, z: 0}
+    - {x: -6, y: 3, z: 0}
+    - {x: -9, y: 3, z: 0}
+    - {x: 6, y: 6, z: -1}
+    - {x: -6, y: -6, z: -1}
+    - {x: 6, y: -6, z: -1}
+    - {x: -6, y: 6, z: -1}
+  - vects:
+    - {x: -9, y: 3, z: 0}
+    - {x: -6, y: 3, z: 0}
+    - {x: -3, y: 3, z: 0}
+    - {x: 0, y: 3, z: 0}
+    - {x: 3, y: 3, z: 0}
+    - {x: 9, y: 3, z: 0}
+    - {x: -9, y: -3, z: 0}
+    - {x: -3, y: -3, z: 0}
+    - {x: 0, y: -3, z: 0}
+    - {x: 3, y: -3, z: 0}
+    - {x: 6, y: -3, z: 0}
+    - {x: 9, y: -3, z: 0}
+    - {x: 9, y: 9, z: 0}
+    - {x: 6, y: 9, z: 0}
+    - {x: -9, y: 9, z: 0}
+    - {x: -6, y: 9, z: 0}
+    - {x: 9, y: -9, z: 0}
+    - {x: 6, y: -9, z: 0}
+    - {x: -6, y: -9, z: 0}
+    - {x: -9, y: -9, z: 0}
+    - {x: 9, y: 0, z: 0}
+    - {x: -9, y: 0, z: 0}
+    - {x: 0, y: 9, z: -1}
+    - {x: 0, y: -9, z: -1}
+    - {x: 6, y: 3, z: -1}
+    - {x: -6, y: -3, z: -1}
+  - vects:
+    - {x: -6, y: 9, z: 0}
+    - {x: -3, y: 9, z: 0}
+    - {x: -6, y: 6, z: 0}
+    - {x: -9, y: 6, z: 0}
+    - {x: -9, y: 3, z: 0}
+    - {x: 6, y: 9, z: 0}
+    - {x: 3, y: 9, z: 0}
+    - {x: 6, y: 6, z: 0}
+    - {x: 9, y: 6, z: 0}
+    - {x: 9, y: 3, z: 0}
+    - {x: 6, y: -9, z: 0}
+    - {x: 3, y: -9, z: 0}
+    - {x: 6, y: -6, z: 0}
+    - {x: 9, y: -6, z: 0}
+    - {x: 9, y: -3, z: 0}
+    - {x: -6, y: -9, z: 0}
+    - {x: -3, y: -9, z: 0}
+    - {x: -6, y: -6, z: 0}
+    - {x: -9, y: -6, z: 0}
+    - {x: -9, y: -3, z: 0}
+    - {x: 3, y: 0, z: -1}
+    - {x: -3, y: 0, z: -1}
+  - vects:
+    - {x: -3, y: 9, z: 0}
+    - {x: -9, y: 6, z: 0}
+    - {x: -6, y: 6, z: 0}
+    - {x: -3, y: 6, z: 0}
+    - {x: 3, y: 9, z: 0}
+    - {x: 9, y: 6, z: 0}
+    - {x: 6, y: 6, z: 0}
+    - {x: 3, y: 6, z: 0}
+    - {x: 0, y: -3, z: 0}
+    - {x: 0, y: -6, z: 0}
+    - {x: 0, y: -9, z: 0}
+    - {x: 6, y: -3, z: 0}
+    - {x: 9, y: -3, z: 0}
+    - {x: 6, y: -9, z: 0}
+    - {x: 9, y: -9, z: 0}
+    - {x: -6, y: -3, z: 0}
+    - {x: -9, y: -3, z: 0}
+    - {x: -6, y: -9, z: 0}
+    - {x: -9, y: -9, z: 0}
+    - {x: 3, y: 0, z: -1}
+    - {x: -3, y: 0, z: -1}
+  count: 0
+  obj:
+  - {fileID: 8736883008017556825, guid: f757d02fc9ae9fc4b89da67e1f303d07, type: 3}
+  - {fileID: 1042892610818679290, guid: 834d916e8d5e1e148b6ae7a49e8e385a, type: 3}
+  - {fileID: 8790745103168288583, guid: 5eaadcb8dc6363a4bb0907d33ee88ad9, type: 3}

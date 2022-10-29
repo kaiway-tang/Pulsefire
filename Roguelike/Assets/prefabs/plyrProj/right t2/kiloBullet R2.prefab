@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7241898555645157363
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 696745916499894706, guid: 800da55b145f3e7489602ba4158143ff,
+        type: 3}
+      propertyPath: m_Name
+      value: kiloBullet R2
+      objectReference: {fileID: 0}
+    - target: {fileID: 696745916499894499, guid: 800da55b145f3e7489602ba4158143ff,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 696745916499894499, guid: 800da55b145f3e7489602ba4158143ff,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 696745916499894499, guid: 800da55b145f3e7489602ba4158143ff,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 696745916499894499, guid: 800da55b145f3e7489602ba4158143ff,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 696745916499894499, guid: 800da55b145f3e7489602ba4158143ff,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 696745916499894499, guid: 800da55b145f3e7489602ba4158143ff,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 696745916499894499, guid: 800da55b145f3e7489602ba4158143ff,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 696745916499894499, guid: 800da55b145f3e7489602ba4158143ff,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 696745916499894499, guid: 800da55b145f3e7489602ba4158143ff,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 696745916499894499, guid: 800da55b145f3e7489602ba4158143ff,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 696745916499894499, guid: 800da55b145f3e7489602ba4158143ff,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 696745916499895653, guid: 800da55b145f3e7489602ba4158143ff,
+        type: 3}
+      propertyPath: explosion
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 696745916499896010, guid: 800da55b145f3e7489602ba4158143ff,
+        type: 3}
+      propertyPath: projID
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6864332604195425789, guid: 800da55b145f3e7489602ba4158143ff,
+        type: 3}
+      propertyPath: m_Name
+      value: kiloBullet R2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5946840692683374233, guid: 800da55b145f3e7489602ba4158143ff,
+        type: 3}
+      propertyPath: explosion
+      value: 
+      objectReference: {fileID: 3555278545445568066, guid: 2484a5e1b9f873c42ad94d252e31ac0f,
+        type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 800da55b145f3e7489602ba4158143ff, type: 3}
