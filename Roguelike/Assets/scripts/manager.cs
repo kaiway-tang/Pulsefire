@@ -193,7 +193,7 @@ public class manager : MonoBehaviour
             if (isPaused) { resume(); }
             else { pause(); }
         }
-        if (isPaused && Input.GetKeyDown(KeyCode.R)) { restart.go(); }
+        if (Input.GetKeyDown(KeyCode.R) && (isPaused || dead)) { restart.go(); }
     }
 
     float xPos; float yPos; bool far;

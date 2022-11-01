@@ -170,7 +170,7 @@ public class player : MonoBehaviour
 
     //public static bool dead;
     int deathAnimTmr;
-    public GameObject explosion;
+    public GameObject explosion, RToRestart;
     public SpriteRenderer[] rends;
 
     public SpriteRenderer plyrRend;
@@ -233,6 +233,8 @@ public class player : MonoBehaviour
     }
     void Start()
     {
+        Debug.Log("Defense: " + defense);
+
         lockInventory = 0;
         warpVigFade = new Color(1,1,1,0);
         overchargeDmg = 1;
@@ -1492,6 +1494,7 @@ public class player : MonoBehaviour
                                     rb.drag = 999;
                                     deathPos = thisPos.position;
                                     Instantiate(explosion, toolbox.inaccuracy(thisPos.position,2), thisPos.rotation);
+                                    RToRestart.SetActive(true);
                                     crosshair.crosshairObj.SetActive(false);
                                     weapon.fireDis++;
                                     //Destroy(gameObject);

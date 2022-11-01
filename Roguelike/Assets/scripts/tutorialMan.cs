@@ -211,7 +211,7 @@ public class tutorialMan : MonoBehaviour
                         player.playerScript.invulnerable = false;
                         for (int i = 0; i < 6; i++)
                         {
-                            player.playerScript.applyAug(7, 1);
+                            //player.playerScript.applyAug(7, 1);
                         }
                         weapon.fireDis++;
                         player.playerScript.baseSpd = 0;
