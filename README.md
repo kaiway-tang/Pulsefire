@@ -1,5 +1,5 @@
 # Pulsefire
-A top-down shooter, action roguelike created over the span of ~15 months starting in 2020.
+A top-down shooter, action roguelike created over the span of ~18 months starting in 2020.
 
 Key Features:
 - A procedural generation algorithm, making every run a unique new adventure
