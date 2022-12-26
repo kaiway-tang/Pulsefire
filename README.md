@@ -6,8 +6,8 @@ Key Features:
 - 30+ different guns
 - 25+ different enemies
 - 12 floors (3 stages x 4 floors each)
-- 3 epic boss fights (1 per stage)
-- Unique NPC interactions (buying, selling, minigames, stealing, and breaking out)
+- 3 epic and challenging boss fights (1 per stage)
+- Various NPC interactions (buying, selling, minigames, stealing, and breaking out)
 
 Play it here!\
 kaiway.itch.io/pf
