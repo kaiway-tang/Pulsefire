@@ -1,7 +1,7 @@
 # Pulsefire
 A top-down shooter, action roguelike created over the span of ~18 months.
 
-Key Features:
+Featuring:
 - A procedural generation algorithm, making every run a unique new adventure
 - 30+ different guns
 - 25+ different enemies
